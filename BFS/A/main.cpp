@@ -28,7 +28,6 @@ vector <vector <int> > matrix_to_edl(vector <vector <int> > &matrix) { // кон
         for(int j = 0; j < n; j++) {
             if (matrix[i][j]) {
                 edl[i].push_back(j);
-                edl[j].push_back(i);
             }
         }
     }
